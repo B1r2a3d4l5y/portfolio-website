@@ -15,23 +15,22 @@ body {
     border: 15px solid navajowhite;
     
 }
-#menu-toggle {
-    position: relative;
-    float: left;
-    height: 100px;
-    width: 100px;
-    text-align: center;
+
     
+.menu {
+    text-decoration: none;
+    text-align: center;
 }
 .nav-items {
     text-decoration: none;
-    height: 200px;
-    float: left;
-    width: 200px;
-    border: 15px solid blue;
-    border-radius: 9px;
+    list-style: none;
+    float:right;
+    display: none;
     text-align: center;
-    opacity: 1;
+    justify-content: center;
+    opacity: 0;
+    padding: 10px;
+    margin: 10px;
 }
 .name {
     text-align: center;
@@ -40,16 +39,12 @@ body {
     font-size: 90px;
     margin: 10px;
 }
-.student {
-    font-size: 50px;
-    float: left;
-    color: aqua;
-    text-align: center;
-    margin: 10px;
-}
+
 .welcome {
     text-align: center;
     float: right;
+    display: none;
+    opacity: 0;
     
 
 }
