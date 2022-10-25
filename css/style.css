@@ -1,24 +1,37 @@
-* {
-    padding: 0;
+::before::after{
     margin: 0;
+    padding: 0;
 }
-body{
-    background-color:lightblue;
-}
-.welcome {
-    display:none;
-    text-align: center;
-    opacity: 0;
-}
-.nav-items {
-    display: none;
-    text-align: center;
-    opacity: 0;
-}
-.p-img {
-    display: flex;
-    position: relative ;
-    height: 200px;
-    width: 200px
+.name {
+    display: inline-block;
+    position: relative;
+    color: lightblue;
+    size: 100px;
+    font-weight: bold;
     
+
+}
+.front {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    size: 90px;
+    top: 60px;
+    right: 300px;
+}
+.about_me {
+    display: inline-block;
+    position: relative;
+    color: lightblue;
+    top: 160px;
+    right: 900px;
+    font-weight: bold;
+
+}
+.description {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    right: 1100px;
+    width: 300px;
 }
