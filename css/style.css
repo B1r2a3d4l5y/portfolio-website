@@ -1,0 +1,59 @@
+::before::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name {
+    display: inline-block;
+    position: relative;
+    color: black;
+    size: 100px;
+    font-weight: bold;
+    
+
+}
+.front {
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+    top: 50px;
+    right: 250px;
+}
+.about_me {
+    display: inline-block;
+    position: relative;
+    color: black;
+    top: 70px;
+    left: -860px;
+    font-weight: bold;
+
+}
+.description {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    right: 1100px;
+    width: 300px;
+    font-weight: bold;
+}
+.skills-header{
+    display: inline-block;
+    position: relative;
+    color: black;
+    top: 30px;
+    font-weight: bold;
+    left: 90px;
+}
+.skills_list {
+    display: inline-block ;
+    position: relative;
+    top: 399px;
+    
+    
+}
+.experiance_header {
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-weight: bold;
+}
