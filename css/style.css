@@ -1,99 +1,17 @@
-::before::after{
+::before::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.name {
-    display: inline-block;
-    position: relative;
-    color: black;
-    size: 100px;
-    font-weight: bold;
-    
-
-}
-.front {
-    display: inline-block;
-    position: relative;
-    font-size: 10px;
-    top: 50px;
-    right: 250px;
-}
-.about_me {
-    display: inline-block;
-    position: relative;
-    color: black;
-    top: 70px;
-    left: -500px;
-    font-weight: bold;
-
-}
-.description {
-    display: inline-block;
-    position: relative;
-    top: 200px;
-    right: 700px;
-    width: 300px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-}
-.skills-header{
-    display: inline-block;
-    position: relative;
-    color: black;
-    top: 30px;
-    font-weight: bold;
-    left: 90px;
-}
-.skills_list {
-    display: inline-block ;
-    position: relative;
-    top: 399px;
-    
-    
-}
-.experiance_header {
-    display: inline-block;
-    position: relative;
-    color: black;
-    font-weight: bold;
-    left: 600px;
-}
-.freelance {
-    display: inline-block;
-    position: relative;
-    top: 100px;
-    left: 600px;
-}
-.freelance_description {
-    display: inline-block;
-    position: relative;
-    top: 100px;
-    left: 600px;
-}
-.education_header {
-    display: block;
-    position: relative;
-    color: black;
-    font-weight: bold;
-    top: 100px;
-    left: 600px;
-
-}
-.highschool {
-    display: inline-block;
-    position: relative;
-    top: 150px;
-    left: 600px;
-    font-weight: bold;
-
-}
-.matric {
-    display: block;
-    position: relative;
-    top: 160px;
-    left: 600px;
+body {
+    background-color: black;
 
 }
 
+.menu_list_links {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-indent: 30px;
+
+}
