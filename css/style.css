@@ -12,6 +12,40 @@ body {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    text-indent: 30px;
+    text-indent: 40px;
+    margin: 30px;
 
+}
+.welcome {
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #4ffac2;
+    cursor: pointer;
+
+}
+.about-header {
+    display: none;
+    position: relative;
+    margin:  100px;
+    color: blue;
+    text-indent: 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about_description {
+    display: none;
+    position: relative;
+    color: white;
+    bottom: 65px;
+    align-items: center;
+    text-indent: 10px;
+    line-height: 25px;
+}
+.netflex_project_img {
+    display: inline-block;
+    position: relative;
+    width: 150px;
 }
