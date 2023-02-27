@@ -44,8 +44,20 @@ body {
     text-indent: 10px;
     line-height: 25px;
 }
-.netflex_project_img {
-    display: inline-block;
+.projects {
+    display: none;
+    color: gray;
+}
+.project-links {
+    text-decoration: none;
+    display: none;
+}
+.project-links:hover {
+    text-decoration: none;
+}
+.project_img {
+    display: none;
     position: relative;
     width: 150px;
+    text-decoration: none;
 }
