@@ -9,14 +9,25 @@ $(document).ready(function(){
       $("#projects").show().animate({opacity:1});
 
      });
-     //project links
+     //project links and projects images
      $("#welcome").click(function(){
-      $("#project-links-netflix").show().animate({opacity:1})
+      $(".project-links").show().animate({opacity:1});
+
+
      });
-     $("welcome").click(function(){
-      //disney+ project link
-      $("#project-links-disney").show().animate({opacity:1})
-
+     $("#welcome").click(function(){
+      $(".name").show().animate({opacity:1});
+      $(".email").animate({opacity:1}).show();
+      $(".comment").animate({opacity:1}).show();
+      $("#submit").animate({opacity:1}).show()
      })
 
-     })
+      
+
+
+
+      })
+
+
+
+   

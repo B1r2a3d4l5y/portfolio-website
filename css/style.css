@@ -25,6 +25,7 @@ body {
     color: #4ffac2;
     cursor: pointer;
 
+
 }
 .about-header {
     display: none;
@@ -49,15 +50,70 @@ body {
     color: gray;
 }
 .project-links {
-    text-decoration: none;
-    display: none;
-}
-.project-links:hover {
-    text-decoration: none;
-}
-.project_img {
     display: none;
     position: relative;
+    height: 70px;
     width: 150px;
-    text-decoration: none;
+}
+form {
+    display: inline-block;
+    position: relative;
+    margin: 100px;
+    right: 60px;
+
+}
+.name {
+    display: none;
+    position: relative;
+    margin: 15px;
+
+}
+.email {
+    display: none;
+    position: relative;
+    margin: 10px;
+
+}
+.comment {
+    display: none;
+    margin: 10px;
+
+}
+.submit {
+    display: none;
+    margin: 50px; 
+
+
+}
+
+    
+.socials {
+    display: inline-block;
+    position: relative;
+    font-size: 35px;
+    color: #aac1d1;
+    font-weight: bold;
+
+
+}
+.linkedin {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    right: 150px;
+    font-size: 30px;
+}
+.github {
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    font-size: 30px;
+    right: 130px;
+
+}
+.innded {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    
 }
