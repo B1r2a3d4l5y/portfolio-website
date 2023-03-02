@@ -27,6 +27,14 @@ body {
 
 
 }
+.hr {
+    display: inline-block;
+    position: relative;
+    color: lightblue;
+    margin-top: 50px;
+    size: 100px;
+    width: 1000%;
+}
 .about-header {
     display: none;
     position: relative;
