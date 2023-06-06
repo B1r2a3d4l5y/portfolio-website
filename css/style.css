@@ -54,11 +54,11 @@ body {
     line-height: 25px;
 }
 .projects {
-    display: none;
+    display: inline-block;
     color: gray;
 }
 .project-links {
-    display: none;
+    display: inline-block;
     position: relative;
     height: 70px;
     width: 150px;
@@ -71,24 +71,24 @@ form {
 
 }
 .name {
-    display: none;
+    display: inline-block;
     position: relative;
     margin: 15px;
 
 }
 .email {
-    display: none;
+    display: inline-block;
     position: relative;
     margin: 10px;
 
 }
 .comment {
-    display: none;
+    display: inline-block;
     margin: 10px;
 
 }
 .submit {
-    display: none;
+    display: inline-block;
     margin: 50px; 
 
 
