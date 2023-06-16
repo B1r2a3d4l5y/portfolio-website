@@ -45,7 +45,7 @@ body {
     font-weight: bold;
 }
 .about_description {
-    display: none;
+    display: inline-block;
     position: relative;
     color: white;
     bottom: 65px;
