@@ -8,33 +8,20 @@ body {
 
 }
 
-.menu_list_links {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    text-indent: 40px;
-    margin: 30px;
 
-}
 .welcome {
     display: inline-block;
     position: relative;
-    margin: 15px;
+    margin: 30px;
     font-size: 50px;
     font-weight: bold;
     color: #4ffac2;
     cursor: pointer;
+    left: 100px;
 
 
 }
-.hr {
-    display: inline-block;
-    position: relative;
-    color: lightblue;
-    margin-top: 50px;
-    size: 100px;
-    width: 1000%;
-}
+
 .about-header {
     display: inline-block;
     position: relative;
@@ -43,6 +30,27 @@ body {
     text-indent: 5px;
     font-size: 50px;
     font-weight: bold;
+    top: 100px;
+}
+.about_description {
+    display: inline-block;
+    position: relative;
+    width: 300%;
+    top: 5px;
+}
+.list_of_skills {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    color: white;
+}
+.profile_img {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    top: -50px;
+    right: -100px;
+    
 }
 .about_description {
     display: inline-block;
@@ -56,12 +64,26 @@ body {
 .projects {
     display: inline-block;
     color: gray;
+    bottom: -50px;
+    margin: 10px;
 }
 .project-links {
     display: inline-block;
     position: relative;
-    height: 70px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    top: 70px;
+    left: -10px;
+
+    
+}
+.project-links2 {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 200px;
+
 }
 form {
     display: inline-block;
@@ -73,23 +95,28 @@ form {
 .name {
     display: inline-block;
     position: relative;
-    margin: 15px;
+    margin: 50px;
 
 }
 .email {
     display: inline-block;
-    position: relative;
-    margin: 10px;
+    position: absolute;
+    margin-top : 60px;
+     margin-top: 70px;
+    left: 50px;
 
 }
 .comment {
     display: inline-block;
-    margin: 10px;
+    position: relative;
+    margin: 50px;
+    margin-bottom: 500px;
 
 }
 .submit {
     display: inline-block;
     margin: 50px; 
+    margin-top: -1800px;
 
 
 }
@@ -119,9 +146,4 @@ form {
     right: 130px;
 
 }
-.innded {
-    display: inline-block;
-    position: relative;
-    font-size: 30px;
-    
-}
+
